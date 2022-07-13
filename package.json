@@ -1,0 +1,26 @@
+{
+  "name": "laxman",
+  "version": "1.0.0",
+  "description": "this is node module file for rendom testing purpush",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/laxmankumawat3/NodeJs.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "laxman kumawat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laxmankumawat3/NodeJs/issues"
+  },
+  "homepage": "https://github.com/laxmankumawat3/NodeJs#readme",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "colors": "^1.4.0"
+  }
+}
