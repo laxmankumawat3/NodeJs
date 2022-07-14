@@ -9,6 +9,7 @@ const data = [
   {
     Name : "Amit ",
     Language : "python",
+    framwork : "dango" ,
     age : 29,
     experience: "8 year"
     
