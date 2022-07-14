@@ -12,3 +12,5 @@ console.log(a+data)
 })
 
 console.log(a+b)
+
+console.log('laxman')
