@@ -1,12 +1,11 @@
-const http = require('http');
-const datas = require("./data")
+const fs = require("fs");
+const input = process.argv;
+if (input[2]=='add'){
+  fs.writeFileSync(input[3],input[4])
+}else if(input[2]=="remove"){
+  fs.unlinkSync(input[3])
+}else{
+  console.log("invalied input")
+}
 
-// Create a local server to receive data from
-const server = http.createServer((req, res) => {
-  res.writeHead(200, { 'Content-Type': 'application/json' });
-  res.end(JSON.stringify({
-   datas
-  }));
-});
 
-server.listen(8000);
